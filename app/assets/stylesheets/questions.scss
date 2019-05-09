@@ -1,0 +1,51 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Anton|Noto+Sans+TC');
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+p {
+  font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+a {
+  color: #5ca0d3;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+.answer-box {
+  background-color: white;
+  border-left: 6px solid gray;
+  padding: 10px 16px;
+  margin: 20px auto;
+}
+
+.form-box {
+  margin: 30px auto;
+}
+
+.input-styling {
+  width: 25%;
+  padding: 14px;
+}
+
+.input-btn {
+
+}
